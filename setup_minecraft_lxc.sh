@@ -12,7 +12,7 @@ apt install -y openjdk-17-jre-headless screen wget curl
 mkdir -p /opt/minecraft && cd /opt/minecraft
 
 # Download Minecraft Server
-wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/259/downloads/paper-1.20.4-259.jar
+wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/207/downloads/paper-1.21.4-207.jar
 
 # Accept EULA
 echo "eula=true" > eula.txt
