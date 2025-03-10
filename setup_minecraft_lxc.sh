@@ -6,8 +6,11 @@
 
 # Update & Install Dependencies
 apt update && apt upgrade -y
-apt install -y openjdk-17-jre-headless screen wget curl
+wget https://packages.microsoft.com/config/debian/$(lsb_release -rs)/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && dpkg -i packages-microsoft-prod.deb
 
+# apt install -y openjdk-17-jre-headless screen wget curl
+
+apt install -y lsb-release screen wget curl msopenjdk-21
 # Create Minecraft Server Directory
 mkdir -p /opt/minecraft && cd /opt/minecraft
 
