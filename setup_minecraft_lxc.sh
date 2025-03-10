@@ -3,6 +3,7 @@
 # Minecraft Server Installer for LXC Containers on Proxmox
 # Tested on Debian 11/12
 # Author: TimInTech
+# Mod by Mephio
 
 # Update & Install Dependencies
 apt update && apt upgrade -y
